@@ -21,7 +21,7 @@ def find_freq(nums, target):
         first_index = start
     
     # find the last occurance
-    # find target+1 (number after target)
+    last_index = None
     start = 0
     end = len(nums)-1
     # until there is only item left
