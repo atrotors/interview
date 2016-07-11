@@ -6,7 +6,7 @@ def find_freq(nums, target):
     start = 0
     end = len(nums)-1
     # until there is only item left
-    while end-start > 0:
+    while end > start:
         mid = (start+end)//2
         # adjust scope
         # if lower, increase start
@@ -25,7 +25,7 @@ def find_freq(nums, target):
     start = 0
     end = len(nums)-1
     # until there is only item left
-    while end-start > 0:
+    while end > start:
         mid = (start+end)//2
         # adjust scope
         # if higher, decrease end
