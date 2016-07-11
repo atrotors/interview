@@ -27,7 +27,7 @@ def find_freq(nums, target):
     # until there is only item left
     while end-start > 0:
         mid = (start+end)//2
-        # adjust scope or return
+        # adjust scope
         # if higher, decrease end
         if nums[mid] > target:
             end = mid - 1
